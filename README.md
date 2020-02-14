@@ -36,3 +36,7 @@ Parameters:
 	-max-servers <#>		- maximum number of content servers to use. (default: 8).
 	-max-downloads <#>		- maximum number of chunks to download concurrently. (default: 4).
 ```
+
+## Stand-alone build
+
+`dotnet publish -c Release -r win-x64 --self-contained true`
